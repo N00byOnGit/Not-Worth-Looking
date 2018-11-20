@@ -1,0 +1,29 @@
+# isntall qemu-utils
+sudo apt-get install qemu-utils
+
+# path to vmdk
+cd /home/jbt/vmware/web/bee-box_v1.6/bee-box
+
+# convert vmdk to raw (dd format)
+qemu-img convert -f vmdk -O raw bee-box.vmdk hdd.raw
+
+# install sleuthkit
+sudo apt-get install sleuthkit
+
+# view partitions:
+mmls hdd.raw
+
+# view fs statistics:
+fsstat -o 63 hdd.raw |head -n25
+
+# generate timeline from MFT
+fls -o 63 -r -m / hdd.raw > hdd.body
+
+# convert body fprmat to human-readble mac-time format:
+mactime -d -b hdd.body > fs.time
+
+Tasks:
+
+- create index of all files created/born after 2014
+- create index of all files modified after 2014
+- create index of all files access after 2014
