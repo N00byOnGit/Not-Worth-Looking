@@ -16,7 +16,9 @@ nothing<br/>
 <h4> VPN in python</h4>
 <h4> Different types of DLL Injection (you've done reflective, now do Hollowing)</h4>
 
-<a href="https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf"> Violent Python </a>
-<a href="https://repo.zenk-security.com/">Cool Repo</a>
-<a href="http://the-eye.eu/"> The Eye Archive</a>
-</h4></p>
+<a href="https://repo.zenk-security.com/Programmation/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers,%20Forensic%20Analysts,%20Penetration%20Testers%20and%20Security%20Enginners.pdf"> Violent Python </a><br/>
+<a href="https://repo.zenk-security.com/">Cool Repo</a><br/>
+<a href="http://the-eye.eu/"> The Eye Archive</a><br/>
+<a href="https://en.wikipedia.org/wiki/Mark_Russinovich"> Linus Trovalds</a>
+<a href="https://en.wikipedia.org/wiki/Mark_Russinovich"> Guido van Rossum</a>
+<a href="https://en.wikipedia.org/wiki/Mark_Russinovich"> Samy Kamkar </a>
